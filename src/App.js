@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
-import { UserForm } from './components/UserForm';
-import {Link} from "react-router-dom";
+import React from 'react';
+import {Form} from "./Form";
+import {Element} from "./Element";
+import { GlobalProvider } from './context';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <UserForm />
-      </div>
-    );
-  }
+import './App.css';
+
+function App() {
+  return (
+    <GlobalProvider>
+   <Form />
+   <Element />
+   </GlobalProvider>
+  );
 }
 
 export default App;
