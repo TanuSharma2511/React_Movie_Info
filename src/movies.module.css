@@ -1,0 +1,31 @@
+.movie{
+    border-radius: 10px;
+    box-shadow:0px 5px 20px rgb(71,71,71);
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:white;
+    align-items:center;
+    padding:10px;
+    /* min-width:40%; */
+    width:50%;
+}
+.image{
+    /* border-radius: 50%; */
+    width:300px;
+    height:300px;
+    
+}
+a{
+    padding:10px;
+    width:90%;
+    background-color:rgb(60, 139, 109);
+    color:white;
+    
+    text-decoration: none;
+    display:block;
+    text-align: center;
+    
+
+}
